@@ -23,4 +23,13 @@ class RoleEloquent extends BaseEloquent implements RoleInterface
         $this->model = $model;
         parent::__construct($this->model);
     }
+
+    /**
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function parts()
+    {
+        return $this->model->where('slug' ,'!=','client')->get();
+    }
 }

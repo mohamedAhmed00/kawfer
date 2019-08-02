@@ -51,7 +51,7 @@ class Setting extends Controller
     public function store(SettingRequest $request)
     {
         $this->service->storeSetting($request);
-        \request()->session()->put('successful','Setting was Saved Successfully');
+        \request()->session()->put('successful','تم الاضافة بنجاح');
         return redirect()->route('auth.setting.index');
     }
 
@@ -75,7 +75,7 @@ class Setting extends Controller
     public function update(UpdateSettingRequest $request , int $id)
     {
         $this->service->updateSetting($request,$id);
-        \request()->session()->put('successful','Setting was Updated Successfully');
+        \request()->session()->put('successful','تم التعديل بنجاح');
         return redirect()->route('auth.setting.index');
     }
 
@@ -86,17 +86,9 @@ class Setting extends Controller
      */
     public function delete(int $id)
     {
-        $result = $this->service->canDelete($id);
-        if($result)
-        {
-            $this->service->delete($id);
-            \request()->session()->put('successful','Setting was deleted Successfully');
-            return redirect()->route('auth.setting.index');
-        }
-        else
-        {
-            \request()->session()->put('successful','This Setting related with some setting . please , delete this settings before');
-            return redirect()->route('auth.setting.index');
-        }
+
+        $this->service->delete($id);
+        \request()->session()->put('successful','تم الحذف بنجاح');
+        return redirect()->route('auth.setting.index');
     }
 }

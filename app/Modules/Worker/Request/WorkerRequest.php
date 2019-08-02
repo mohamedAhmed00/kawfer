@@ -25,8 +25,15 @@ class WorkerRequest extends FormRequest
     {
         return [
             'name' => 'required|string',
+            'job_title' => 'required|string',
             'age' => 'required|integer',
             'phone_number' => 'required|numeric',
+            'health_certificate_id' => 'required|image',
+            'national_id' => 'required|image',
+            'passport_image' => 'required|image',
+            'passport_expiration_age' => 'required|string',
+            'health_certificate_expiration_age' => 'required|string',
+            'national_expiration_age' => 'required|string',
         ];
     }
 }

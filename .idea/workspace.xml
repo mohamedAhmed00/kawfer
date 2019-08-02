@@ -1,14 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbb2fc4a-b2d3-4500-aa6d-0481c770d6ca" name="Default Changelist" comment="" />
+    <list default="true" id="dbb2fc4a-b2d3-4500-aa6d-0481c770d6ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Modules/Operation/Request/OperationMeasureRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/93e74a8a-ba50-40ad-b2d3-471f7d28deaf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/93e74a8a-ba50-40ad-b2d3-471f7d28deaf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kwafer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kwafer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Generic/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Generic/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Generic/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Generic/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Generic/Service/Classes/BaseServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Generic/Service/Classes/BaseServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Generic/View/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Generic/View/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Category/Controller/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Category/Controller/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Category/View/category/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Category/View/category/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Category/View/category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Category/View/category/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Credential/Controller/Credential.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Credential/Controller/Credential.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Credential/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Credential/Model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Credential/Provider/CredentialServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Credential/Provider/CredentialServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Credential/Service/Classes/CredentialServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Credential/Service/Classes/CredentialServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Credential/View/credential/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Credential/View/credential/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Credential/View/credential/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Credential/View/credential/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/Controller/Operation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/Controller/Operation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/Model/Operation.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/Model/Operation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/Repository/Eloquent/OperationEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/Repository/Eloquent/OperationEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/Repository/Interfaces/OperationInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/Repository/Interfaces/OperationInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/Service/Classes/OperationServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/Service/Classes/OperationServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/Service/Interfaces/OperationServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/Service/Interfaces/OperationServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/View/operation/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/View/operation/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Operation/View/operation/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Operation/View/operation/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Permission/Controller/Permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Permission/Controller/Permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Permission/Model/Permission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Permission/Model/Permission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Permission/View/permission/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Permission/View/permission/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Permission/View/permission/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Permission/View/permission/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Controller/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Controller/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Model/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Repository/Eloquent/ProductEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Repository/Eloquent/ProductEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Repository/Interfaces/ProductInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Repository/Interfaces/ProductInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Request/ProductRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Request/ProductRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Service/Classes/ProductServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Service/Classes/ProductServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/Service/Interfaces/ProductServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/Service/Interfaces/ProductServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/View/product/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/View/product/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Product/View/product/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Product/View/product/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/Controller/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/Controller/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/Model/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/Model/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/Repository/Eloquent/RoleEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/Repository/Eloquent/RoleEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/Repository/Interfaces/RoleInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/Repository/Interfaces/RoleInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/Service/Classes/RoleServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/Service/Classes/RoleServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/Service/Interfaces/RoleServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/Service/Interfaces/RoleServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/View/role/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/View/role/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Role/View/role/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Role/View/role/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Setting/Controller/Setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Setting/Controller/Setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Setting/View/setting/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Setting/View/setting/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Setting/View/setting/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Setting/View/setting/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Controller/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Controller/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Repository/Eloquent/UserEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Repository/Eloquent/UserEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Repository/Interfaces/UserInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Repository/Interfaces/UserInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Request/UpdateUserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Request/UpdateUserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Request/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Request/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Service/Classes/UserServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Service/Classes/UserServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/Service/Interfaces/UserServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/Service/Interfaces/UserServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/View/user/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/View/user/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/User/View/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/User/View/user/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Controller/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Controller/Worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Model/Worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Model/Worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Repository/Eloquent/WorkerEloquent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Repository/Eloquent/WorkerEloquent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Repository/Interfaces/WorkerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Repository/Interfaces/WorkerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Request/WorkerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Request/WorkerRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Service/Classes/WorkerServiceClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Service/Classes/WorkerServiceClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/Service/Interfaces/WorkerServiceInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/Service/Interfaces/WorkerServiceInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/View/worker/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/View/worker/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Modules/Worker/View/worker/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Modules/Worker/View/worker/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/vendor/animsition/animsition.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/vendor/animsition/animsition.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin/vendor/bootstrap-4.1/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin/vendor/bootstrap-4.1/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/setting/Beach_by_Samuel_Scrimshaw1559962042.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -46,125 +129,111 @@
         <item name="kawfer@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="kawfer: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="permissions: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kawfer@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kawfer: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="roles: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kawfer@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kawfer: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="settings: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="kawfer@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="kawfer: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="workers: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="products: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Role/Request/RoleRequest.php">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Order/View/order/cart.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Service/Classes/InvoiceServiceClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
               <folding>
-                <element signature="e#44#87#0#PHP" expanded="true" />
+                <element signature="e#55#104#0#PHP" expanded="true" />
+                <element signature="e#1384#1510#0#PHP" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Role/Model/Role.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#42#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Role/View/role/form.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Permission/Model/Permission.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#48#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Permission/Request/PermissionRequest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Permission/View/permission/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Permission/View/permission/form.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Generic/View/layout.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/View/invoice/order_invo.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="397" column="7" lean-forward="true" selection-start-line="397" selection-start-column="7" selection-end-line="397" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="147" column="38" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Category/View/category/form.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/Modules/Order/Model/Order.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Modules/Category/View/category/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Order/Controller/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="105" column="48" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="48" />
+              <folding>
+                <element signature="e#48#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Order/Service/Classes/OrderServiceClass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://93e74a8a-ba50-40ad-b2d3-471f7d28deaf/schema/kawfer/table/products">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="001119d8-3557-4e04-985f-45288a9b7821">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/View/invoice/reservation_invo.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Controller/Invoice.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Service/Interfaces/InvoiceServiceInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -173,115 +242,141 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Console</find>
-      <find>AppServiceProvider</find>
-      <find>ogin-wrap</find>
-      <find>credential.home</find>
-      <find>Credential</find>
-      <find>Category</find>
-      <find>categories</find>
-      <find>categorys</find>
-      <find>category</find>
-      <find>$categor_id</find>
-      <find>credential</find>
-      <find>Barber</find>
-      <find>barber</find>
-      <find>product</find>
-      <find>delete-script</find>
-      <find>Product</find>
-      <find>Client</find>
-      <find>worker</find>
-      <find>Worker</find>
-      <find>Role</find>
-      <find>role</find>
+      <find>$date</find>
+      <find>auth.schedule.index</find>
+      <find>auth.schedule.edit</find>
+      <find>phone_number</find>
+      <find>price</find>
+      <find>title</find>
+      <find>sett</find>
+      <find>route(</find>
       <find>client</find>
-      <find>users</find>
+      <find>role</find>
+      <find>product</find>
+      <find>Discount</find>
+      <find>discount</find>
+      <find>order</find>
+      <find>auth.order.select.product</find>
+      <find>Permissions was assigned Successfully</find>
+      <find>كل الطلبات</find>
+      <find>operation</find>
+      <find>opera</find>
+      <find>perm</find>
+      <find>report</find>
+      <find>DB::row</find>
+      <find>Produ</find>
+      <find>qrcode</find>
+      <find>Schedule</find>
+      <find>schedule</find>
+      <find>`</find>
+      <find>finishOrder</find>
+      <find>OrderProducts</find>
+      <find>$orderDetails</find>
     </findStrings>
     <replaceStrings>
-      <replace>Category</replace>
-      <replace>Product</replace>
-      <replace>products</replace>
-      <replace>product</replace>
-      <replace>client</replace>
-      <replace>Client</replace>
-      <replace>Barber</replace>
-      <replace>category</replace>
-      <replace>worker</replace>
-      <replace>Operation</replace>
-      <replace>operation</replace>
-      <replace>setting</replace>
-      <replace>Setting</replace>
-      <replace>Worker</replace>
-      <replace>User</replace>
+      <replace>الاجمالي</replace>
+      <replace>احمد نادر</replace>
+      <replace>نادر احمد</replace>
+      <replace>DashboardCheck</replace>
+      <replace>'Auth'</replace>
+      <replace>Cart</replace>
+      <replace>title=&quot;تعديل&quot;</replace>
+      <replace>title=&quot;حذف&quot;</replace>
+      <replace>reservation</replace>
+      <replace>Profile</replace>
+      <replace>profile</replace>
+      <replace>App\Modules\Client</replace>
+      <replace>Discount</replace>
+      <replace>discount</replace>
+      <replace>التخفيض</replace>
+      <replace>تخفيض</replace>
+      <replace>operationType</replace>
+      <replace>OperationType::class</replace>
+      <replace>operationMeasure</replace>
+      <replace>Reservation</replace>
+      <replace>schedule</replace>
+      <replace>Schedule</replace>
       <replace>role</replace>
-      <replace>Role</replace>
-      <replace>Permission</replace>
-      <replace>permission</replace>
-      <replace>user</replace>
+      <replace>operation-type</replace>
+      <replace>operation-measure</replace>
+      <replace>order</replace>
+      <replace>qr_code</replace>
+      <replace>Invoice</replace>
+      <replace>invoice</replace>
+      <replace>'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/Modules/Category</dir>
       <dir>$PROJECT_DIR$/app/Modules/Operation</dir>
       <dir>$PROJECT_DIR$/app/Modules/Setting</dir>
-      <dir>$PROJECT_DIR$/app/Modules/Client</dir>
-      <dir>$PROJECT_DIR$/app/Modules/Role</dir>
       <dir>$PROJECT_DIR$/app/Modules/Permission</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Product</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Report</dir>
+      <dir>$PROJECT_DIR$/app/Modules/RolePermission</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Client</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Order</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Role</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Discount</dir>
+      <dir>$PROJECT_DIR$/app/Modules/Invoice</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Modules/Client/Provider/ClientServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Repository/Eloquent/ClientEloquent.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Repository/Interfaces/ClientInterface.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Model/Client.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/View/client/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/View/client/form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Request/ClientRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Request/UpdateClientRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Service/Classes/ClientServiceClass.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Service/Interfaces/ClientServiceInterface.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Controller/Barber.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Model/Barber.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Provider/BarberServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Repository/Eloquent/BarberEloquent.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Repository/Interfaces/BarberInterface.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Request/BarberRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Service/Classes/BarberServiceClass.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Barber/Service/Interfaces/BarberServiceInterface.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Worker/View/worker/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Worker/View/worker/form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Worker/Request/WorkerRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Worker/Model/Worker.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Operation/Model/Operation.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Operation/View/operation/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Operation/View/operation/form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Operation/Request/OperationRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Worker/Controller/Worker.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Operation/Controller/Operation.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Client/Controller/Client.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/Request/SettingRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/Model/Setting.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/View/setting/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/Request/UpdateSettingRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/Service/Interfaces/SettingServiceInterface.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/View/setting/form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/Controller/Setting.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_06_04_010130_create_roles_table.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Role/Controller/Role.php" />
-        <option value="$PROJECT_DIR$/config/view.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Setting/Service/Classes/SettingServiceClass.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Role/View/role/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Role/Request/RoleRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Role/Model/Role.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Role/View/role/form.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Permission/Model/Permission.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Permission/Request/PermissionRequest.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Permission/View/permission/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Modules/Permission/View/permission/form.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Operation/View/operation/index-measure.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/View/schedule/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/RolePermission/View/rolePermission/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/Service/Interfaces/OrderServiceInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/Repository/Interfaces/OrderInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Report/View/report/select_date.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/Repository/Eloquent/OrderEloquent.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/View/schedule/choice_container.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Operation/Repository/Eloquent/OperationTypeEloquent.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Operation/Repository/Interfaces/OperationInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Operation/Service/Interfaces/OperationServiceInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Operation/Service/Classes/OperationServiceClass.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Report/Controller/Report.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Worker/Repository/Interfaces/WorkerInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Worker/Service/Classes/WorkerServiceClass.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Worker/Service/Interfaces/WorkerServiceInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Report/View/report/daily-index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Operation/Repository/Eloquent/OperationEloquent.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Worker/Repository/Eloquent/WorkerEloquent.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Report/Policy/ReportPolicy.php" />
         <option value="$PROJECT_DIR$/app/Generic/View/layout.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Product/Controller/Product.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/View/order/select_order.blade.php" />
+        <option value="$PROJECT_DIR$/../Text 1.html" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/View/schedule/print/latter_reservation_invo.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/View/schedule/print/day_reservation_invo.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_07_30_034636_create_invoices_table.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/Service/Classes/ScheduleServiceClass.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/Service/Interfaces/ScheduleServiceInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/Repository/Eloquent/InvoiceEloquent.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/Repository/Interfaces/InvoiceInterface.php" />
+        <option value="$PROJECT_DIR$/config/view.php" />
+        <option value="$PROJECT_DIR$/app/Generic/Service/Classes/BaseServiceClass.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/View/invoice/day_reservation_invo.blade.php" />
+        <option value="$PROJECT_DIR$/../index.html" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/View/invoice/latter_reservation_invo.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/Controller/Reservation.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/View/schedule/reservation-later.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Schedule/View/schedule/reservation-today.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/View/invoice/reservation_invo.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/View/order/cart.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/View/order/form.blade.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/Service/Classes/OrderServiceClass.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/Controller/Order.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/Service/Interfaces/InvoiceServiceInterface.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/Model/Invoice.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Order/Model/Order.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/Service/Classes/InvoiceServiceClass.php" />
+        <option value="$PROJECT_DIR$/app/Modules/Invoice/View/invoice/order_invo.blade.php" />
       </list>
     </option>
   </component>
@@ -368,13 +463,17 @@
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/darryldecode/cart" />
+      <path value="$PROJECT_DIR$/vendor/mike42/escpos-php" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="1" />
-    <option name="width" value="708" />
-    <option name="height" value="724" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1358" />
+    <option name="height" value="718" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -404,6 +503,21 @@
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,14 +531,48 @@
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Category" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Category" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -432,46 +580,47 @@
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Category" type="462c0819:PsiDirectoryNode" />
+              <item name="Invoice" type="462c0819:PsiDirectoryNode" />
               <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="invoice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Permission" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Permission" type="462c0819:PsiDirectoryNode" />
-              <item name="Request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Permission" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="Permission" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-              <item name="permission" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
               <item name="kwafer" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kwafer" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kwafer" type="b2602c69:ProjectViewProjectNode" />
@@ -486,24 +635,27 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Modules/Permission" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elsabet(copy)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Modules/Credential/Middleware" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/Modules/Setting/Request" />
-      <recent name="$PROJECT_DIR$/app/Modules/Client/Request" />
-      <recent name="$PROJECT_DIR$/app/Modules/Category/View/Category" />
-      <recent name="$PROJECT_DIR$/app/Modules/Credential/View/credential" />
-      <recent name="$PROJECT_DIR$/app/Generic/View" />
+      <recent name="$PROJECT_DIR$/app/Modules/Invoice/View/invoice" />
+      <recent name="$PROJECT_DIR$/app/Modules/Report/View/report" />
+      <recent name="$PROJECT_DIR$/app/Modules/Order/Policy" />
+      <recent name="$PROJECT_DIR$/app/Modules/Role/Policy" />
+      <recent name="$PROJECT_DIR$/app/Modules/Schedule/Request" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Generic/Traits" />
+      <recent name="$PROJECT_DIR$/app/Modules/Credential/Middleware" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -534,28 +686,95 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559840628617</updated>
-      <workItem from="1559840629914" duration="41261000" />
+      <workItem from="1559840629914" duration="41686000" />
+      <workItem from="1560111663986" duration="7599000" />
+      <workItem from="1560182742436" duration="1224000" />
+      <workItem from="1560184173551" duration="3816000" />
+      <workItem from="1560200143918" duration="1107000" />
+      <workItem from="1560212388074" duration="1461000" />
+      <workItem from="1560284339676" duration="3138000" />
+      <workItem from="1560288029966" duration="106000" />
+      <workItem from="1560288509636" duration="5862000" />
+      <workItem from="1560329441455" duration="232000" />
+      <workItem from="1560329831832" duration="774000" />
+      <workItem from="1560336760141" duration="54000" />
+      <workItem from="1560369970341" duration="9342000" />
+      <workItem from="1560416473150" duration="1405000" />
+      <workItem from="1560521406391" duration="4628000" />
+      <workItem from="1560716390897" duration="1269000" />
+      <workItem from="1560724497870" duration="2527000" />
+      <workItem from="1560806245521" duration="5720000" />
+      <workItem from="1560854390222" duration="92000" />
+      <workItem from="1560890621733" duration="5673000" />
+      <workItem from="1560975906738" duration="6539000" />
+      <workItem from="1561063929119" duration="29734000" />
+      <workItem from="1561215129125" duration="186000" />
+      <workItem from="1561250655039" duration="1280000" />
+      <workItem from="1561329478962" duration="4919000" />
+      <workItem from="1561733236074" duration="20374000" />
+      <workItem from="1561771126244" duration="14375000" />
+      <workItem from="1562172147648" duration="41000" />
+      <workItem from="1562617060037" duration="13756000" />
+      <workItem from="1562704809694" duration="6761000" />
+      <workItem from="1562750449912" duration="37000" />
+      <workItem from="1562793499719" duration="8201000" />
+      <workItem from="1562901458409" duration="3757000" />
+      <workItem from="1563139200393" duration="4840000" />
+      <workItem from="1563224471610" duration="10931000" />
+      <workItem from="1563312981304" duration="9584000" />
+      <workItem from="1563398156414" duration="11700000" />
+      <workItem from="1563487734928" duration="45428000" />
+      <workItem from="1563646461164" duration="1050000" />
+      <workItem from="1563734174031" duration="172000" />
+      <workItem from="1563734581037" duration="49000" />
+      <workItem from="1563734649935" duration="94000" />
+      <workItem from="1563734814209" duration="7000" />
+      <workItem from="1563734853606" duration="211000" />
+      <workItem from="1563735366239" duration="44000" />
+      <workItem from="1563737335192" duration="4623000" />
+      <workItem from="1564236991627" duration="19400000" />
+      <workItem from="1564307517356" duration="18000" />
+      <workItem from="1564374642577" duration="861000" />
+      <workItem from="1564449009057" duration="11707000" />
+      <workItem from="1564552824508" duration="6906000" />
+      <workItem from="1564626734336" duration="3793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41261000" />
+    <option name="totallyTimeSpent" value="338861000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="846" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1600" height="846" extended-state="6" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23230374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="SQL Generator" weight="0.3295129" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295129" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3295129" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32816902" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32957748" />
+      <window_info anchor="bottom" id="SQL Generator" order="11" weight="0.3295129" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4980695" weight="0.9" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5019305" side_tool="true" weight="0.9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17889318" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31660232" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -563,443 +782,394 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" weight="0.17889318" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32816902" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32957748" />
+      <window_info anchor="bottom" id="SQL Generator" order="11" weight="0.3295129" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.498713" weight="0.9" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.501287" side_tool="true" weight="0.9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24967825" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3295129" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Database Console" order="5" weight="0.3295129" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32947233" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.17889318" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Modules/Permission/View/permission/index.blade.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Service/Classes/ClientServiceClass.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/Repository/Eloquent/WorkerEloquent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="1185">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/Service/Classes/WorkerServiceClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/Service/Interfaces/WorkerServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/Repository/Eloquent/OperationEloquent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="141" selection-start-line="42" selection-start-column="141" selection-end-line="42" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Report/View/report/daily-index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Report/Policy/ReportPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="18234" column="17" selection-start-line="18234" selection-start-column="17" selection-end-line="18234" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Text 1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="60" selection-start-line="114" selection-start-column="60" selection-end-line="114" selection-end-column="60" />
           <folding>
-            <element signature="e#54#103#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#0;n#table#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Controller/Barber.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Product/Controller/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+        <state relative-caret-position="525">
+          <caret line="119" column="42" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Generic/View/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" column="105" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/View/schedule/print/latter_reservation_invo.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/View/schedule/print/day_reservation_invo.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/Model/Schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_30_034609_create_invoice_table.php" />
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_04_011330_create_discounts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_19_135055_create_schedules_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_07_30_034636_create_invoices_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Repository/Interfaces/InvoiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Provider/InvoiceServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding>
-            <element signature="e#49#87#0#PHP" expanded="true" />
+            <element signature="e#48#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Request/ClientRequest.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/Service/Interfaces/ScheduleServiceInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Model/Barber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Provider/BarberServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#47#83#0#PHP" expanded="true" />
+            <element signature="e#59#115#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Repository/Interfaces/BarberInterface.php">
+    <entry file="file://$PROJECT_DIR$/config/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="90">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Repository/Eloquent/BarberEloquent.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/Service/Classes/ScheduleServiceClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="384">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Generic/Service/Classes/BaseServiceClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Generic/Service/Interfaces/BaseServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/View/invoice/latter_reservation_invo.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/Controller/Schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="244" column="62" selection-start-line="244" selection-start-column="62" selection-end-line="244" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/mpdf/mpdf/src/Mpdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#56#105#0#PHP" expanded="true" />
+            <element signature="e#24#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Request/BarberRequest.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/View/schedule/reservation-later.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="219">
+          <caret line="57" column="56" lean-forward="true" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Service/Interfaces/BarberServiceInterface.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Repository/Eloquent/InvoiceEloquent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Barber/Service/Classes/BarberServiceClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#54#103#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/View/worker/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/View/worker/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="330">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/Request/WorkerRequest.php">
+    <entry file="file://$PROJECT_DIR$/../index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="1695">
+          <caret line="113" column="43" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/Model/Worker.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/View/schedule/reservation-today.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="990">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/Model/Operation.php">
+    <entry file="file:///var/www/html/sakan/public/themes/sakan/views/cert.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="405">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/View/operation/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Schedule/Controller/Reservation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/View/operation/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/Request/OperationRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/Service/Classes/OperationServiceClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Controller/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Category/Controller/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+        <state relative-caret-position="2070">
+          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
           <folding>
             <element signature="e#51#89#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Client/Controller/Client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="64" column="55" lean-forward="true" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
-          <folding>
-            <element signature="e#49#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Worker/Controller/Worker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#49#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Operation/Controller/Operation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="e#52#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/View/setting/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Generic/Traits/FileUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Service/Interfaces/SettingServiceInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Request/UpdateSettingRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#47#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/View/setting/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
-          <folding>
-            <element signature="e#3031#3066#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Controller/Setting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding>
-            <element signature="e#50#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_06_04_010130_create_roles_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Role/Controller/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Permission/Provider/PermissionServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="184" column="74" lean-forward="true" selection-start-line="184" selection-start-column="74" selection-end-line="184" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Service/Classes/SettingServiceClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
-          <folding>
-            <element signature="e#55#104#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Product/View/product/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="36" selection-start-line="36" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="114" selection-start-line="4" selection-start-column="105" selection-end-line="4" selection-end-column="114" />
+        <state relative-caret-position="2805">
+          <caret line="187" column="3" selection-start-line="187" selection-start-column="3" selection-end-line="187" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Model/Setting.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Controller/Invoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://93e74a8a-ba50-40ad-b2d3-471f7d28deaf/schema/kawfer/table/products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="001119d8-3557-4e04-985f-45288a9b7821">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/View/order/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/View/order/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/View/order/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/View/order/select_order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="210" column="6" selection-start-line="210" selection-start-column="6" selection-end-line="210" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/Controller/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
-            <element signature="e#45#84#0#PHP" expanded="true" />
+            <element signature="e#48#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Setting/Request/SettingRequest.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/View/order/cart.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" selection-start-line="5" selection-end-line="6" />
+        <state relative-caret-position="15">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Role/View/role/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/Service/Classes/OrderServiceClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="363">
+          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Role/Request/RoleRequest.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/Controller/Order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="48" />
           <folding>
-            <element signature="e#44#87#0#PHP" expanded="true" />
+            <element signature="e#48#86#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Role/View/role/form.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Service/Interfaces/InvoiceServiceInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="285">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Role/Model/Role.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Model/Invoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/View/invoice/reservation_invo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Order/Model/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/Service/Classes/InvoiceServiceClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
           <folding>
-            <element signature="e#42#81#0#PHP" expanded="true" />
+            <element signature="e#55#104#0#PHP" expanded="true" />
+            <element signature="e#1384#1510#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Permission/Model/Permission.php">
+    <entry file="file://$PROJECT_DIR$/app/Modules/Invoice/View/invoice/order_invo.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="147" column="38" selection-start-line="147" selection-start-column="38" selection-end-line="147" selection-end-column="38" />
           <folding>
-            <element signature="e#48#87#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Permission/Request/PermissionRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Permission/View/permission/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Permission/View/permission/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Category/View/category/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Modules/Category/View/category/form.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Generic/View/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="397" column="7" lean-forward="true" selection-start-line="397" selection-start-column="7" selection-end-line="397" selection-end-column="7" />
         </state>
       </provider>
     </entry>

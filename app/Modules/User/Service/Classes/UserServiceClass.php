@@ -26,6 +26,16 @@ class UserServiceClass extends BaseServiceClass implements UserServiceInterface
     }
 
     /**
+     * @param int $roleId
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function specificUser($roleId)
+    {
+       return  $this->repository->specificUser($roleId);
+    }
+
+    /**
      * @param $request
      * @author Nader Ahmed
      * @return void

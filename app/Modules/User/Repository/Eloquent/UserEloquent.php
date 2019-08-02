@@ -23,4 +23,14 @@ class UserEloquent extends BaseEloquent implements UserInterface
         $this->model = $model;
         parent::__construct($this->model);
     }
+
+    /**
+     * @param int $roleId
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function specificUser($roleId)
+    {
+        return $this->model->where('role_id','!=' , $roleId)->get();
+    }
 }

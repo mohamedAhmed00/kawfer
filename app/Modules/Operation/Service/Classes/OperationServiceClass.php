@@ -26,6 +26,14 @@ class OperationServiceClass extends BaseServiceClass implements OperationService
     }
 
     /**
+     * @author Nader Ahmed
+     * @return Mixed
+     */
+    public function getWithTypes() {
+
+        return $this->repository->getWithTypes();
+    }
+    /**
      * @param int $id
      * @author Nader Ahmed
      * @return boolean
@@ -34,6 +42,17 @@ class OperationServiceClass extends BaseServiceClass implements OperationService
     {
 //        dd($this->repository->getById($id)->Operations());
         return true;
+    }
+
+    /**
+     * @param string $date
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function getReport(string $date)
+    {
+        $date = explode(' - ',$date);
+        return $this->repository->getReport($date);
     }
 }
 

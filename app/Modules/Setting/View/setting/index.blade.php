@@ -6,30 +6,40 @@
     <div class="row">
         <div class="col-md-12">
             <!-- DATA TABLE -->
-            <h3 class="title-5 m-b-35">All Settings</h3>
-            <div class="table-data__tool float-lg-right">
-                <div class="table-data__tool-right">
-                    <a href="{{ route('auth.setting.create') }}" class="au-btn au-btn-icon au-btn--green au-btn--small">
-                        <i class="zmdi zmdi-plus"></i>add item
-                    </a>
-                </div>
-            </div>
+            <h3 class="title-5 m-b-35">كل الاعدادات</h3>
+{{--            @can('create', \App\Modules\Setting\Model\Setting::class)--}}
+{{--                <div class="table-data__tool float-lg-right">--}}
+{{--                    <div class="table-data__tool-right">--}}
+{{--                        <a href="{{ route('auth.setting.create') }}" class="au-btn au-btn-icon au-btn--green au-btn--small">--}}
+{{--                            <i class="zmdi zmdi-plus"></i> اضافة جديد--}}
+{{--                        </a>--}}
+{{--                    </div>--}}
+{{--                </div>        --}}
+{{--            @endcan--}}
             <div class="table-responsive table-responsive-data2">
 
                 <table class="table table-data2">
                     <thead>
                     <tr class="text-center">
-                        <th># Setting</th>
-                        <th>key</th>
-                        <th>value</th>
-                        <th>Created At</th>
-                        <th class="text-right pr-5">Actions</th>
+                        @can('update', \App\Modules\Setting\Model\Setting::class)
+                            <th># ضبط</th>
+                        @endcan
+                        <th>الاسم</th>
+                        <th>القيمه</th>
+                        <th>تاريخ الانشاء</th>
+                        @can('update', \App\Modules\Setting\Model\Setting::class)
+                            <th class="text-right pr-5">الاحداث</th>
+                        @elsecan('delete', \App\Modules\Setting\Model\Setting::class)
+                            <th class="text-right pr-5">الاحداث</th>
+                        @endcan
                     </tr>
                     </thead>
                     <tbody>
                     @foreach($settings as $setting)
                         <tr class="tr-shadow text-center">
-                            <td><a href="{{ route('auth.setting.edit',$setting->id) }}">{{ $loop->iteration }}</a></td>
+                            @can('update', \App\Modules\Setting\Model\Setting::class)
+                                <td><a href="{{ route('auth.setting.edit',$setting->id) }}">{{ $loop->iteration }}</a></td>
+                            @endcan
                             <td>{{ $setting->key }}</td>
                             <td class="account-item text-center">
                                 @if($setting->type == "image")
@@ -39,16 +49,22 @@
                                 @endif
                             </td>
                             <td><span class="status--process">{{ $setting->created_at->diffForHumans() }}</span></td>
-                            <td>
-                                <div class="table-data-feature text-center">
-                                    <a href="{{ route('auth.setting.edit',$setting->id) }}" class="item" data-toggle="tooltip" data-placement="top" title="Edit">
-                                        <i class="zmdi zmdi-edit"></i>
-                                    </a>
-                                    <a href="{{ route('auth.setting.delete',$setting->id) }}" class="item delete" data-toggle="tooltip" data-placement="top" title="Delete">
-                                        <i class="zmdi zmdi-delete"></i>
-                                    </a>
-                                </div>
-                            </td>
+                            @if (Auth::user()->can('update', $setting) Or Auth::user()->can('delete', $setting))
+                                <td>
+                                    <div class="table-data-feature text-center">
+                                        @can('update', \App\Modules\Setting\Model\Setting::class)
+                                            <a href="{{ route('auth.setting.edit',$setting->id) }}" class="item" data-toggle="tooltip" data-placement="top" title="تعديل">
+                                                <i class="zmdi zmdi-edit"></i>
+                                            </a>
+                                        @endcan
+{{--                                        @can('delete', \App\Modules\Setting\Model\Setting::class)--}}
+{{--                                                <a href="{{ route('auth.setting.delete',$setting->id) }}" class="item delete" data-toggle="tooltip" data-placement="top" title="حذف">--}}
+{{--                                                    <i class="zmdi zmdi-delete"></i>--}}
+{{--                                                </a>--}}
+{{--                                        @endcan--}}
+                                    </div>
+                                </td>
+                            @endif
                         </tr>
                         <tr class="spacer"></tr>
                     @endforeach
@@ -64,7 +80,7 @@
 @section('script')
     <script>
         $(".delete").on("click", function(){
-            return confirm("Do you want to delete this item?");
+            return confirm("هل تريد حقا حذف هذا العنصر ؟");
         });
     </script>
 @endsection

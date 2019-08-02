@@ -35,5 +35,37 @@ class ProductServiceClass extends BaseServiceClass implements ProductServiceInte
 //        dd($this->repository->getById($id)->Products());
         return true;
     }
+
+    /**
+     * @param $OrderProducts
+     * @author Nader Ahmed
+     * @return Mixed
+     */
+    public function updateOrder($orderProducts){
+
+        foreach($orderProducts as $product)
+        {
+            $this->repository->update($product->id,['quantity' => $product->pivot->quantity + $product->quantity ]);
+        }
+        return 0;
+    }
+
+    /**
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function getExpiredProduct()
+    {
+        return $this->repository->getExpiredProduct();
+    }
+
+    /**
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function getAllWithExpireField()
+    {
+        return $this->repository->getAllWithExpireField();
+    }
 }
 

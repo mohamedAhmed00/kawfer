@@ -34,11 +34,13 @@ class Credential extends Controller
      * @return View
      */
     public function login(LoginRequest $request){
-        if($this->service->login($request->all()))
+        \request()->session()->put('email',$request->get('email'));
+        $result = $this->service->login($request->all());
+        if($result !== false )
         {
-            return redirect()->route('auth.home');
+            return redirect()->route($result);
         };
-        return redirect()->back()->with('un_auth','Email and password not matched , try again');
+        return redirect()->back()->with('un_auth','البريد الالكتروني و كلمة المرور غير متطابقتين . حاول مجددا');
     }
 
     public function home()

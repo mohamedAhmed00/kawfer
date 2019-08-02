@@ -6,7 +6,11 @@ use App\Generic\Service\Interfaces\BaseServiceInterface;
 
 interface RoleServiceInterface extends BaseServiceInterface
 {
-
+    /**
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function parts();
     /**
      * @param int $id
      * @author Nader Ahmed

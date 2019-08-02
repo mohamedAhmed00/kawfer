@@ -26,6 +26,15 @@ class RoleServiceClass extends BaseServiceClass implements RoleServiceInterface
     }
 
     /**
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function parts()
+    {
+        return $this->repository->parts();
+    }
+
+    /**
      * @param int $id
      * @author Nader Ahmed
      * @return boolean

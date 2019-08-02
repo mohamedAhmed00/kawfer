@@ -2,6 +2,7 @@
 
 namespace App\Modules\Permission\Model;
 
+use App\Modules\Role\Model\Role;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
@@ -22,5 +23,9 @@ class Permission extends Model
     {
         $this->attributes['slug'] = Str::slug($value);
         $this->attributes['name'] = $value;
+    }
+
+    public function roles() {
+        return $this->belongsToMany(Role::class,'roles_permissions');
     }
 }

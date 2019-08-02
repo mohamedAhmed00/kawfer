@@ -13,4 +13,24 @@ interface ProductServiceInterface extends BaseServiceInterface
      * @return boolean
      */
     public function canDelete(int $id);
+
+    /**
+     * @param $OrderProducts
+     * @author Nader Ahmed
+     * @return Mixed
+     */
+    public function updateOrder($OrderProducts);
+
+    /**
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function getExpiredProduct();
+
+    /** @author Nader Ahmed
+     * @return mixed
+     */
+    public function getAllWithExpireField();
+
+
 }

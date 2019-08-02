@@ -27,6 +27,8 @@ class ProductRequest extends FormRequest
             'name' => 'required|string',
             'image' => 'nullable|image',
             'quantity' => 'required|integer',
+            'qr_code' => 'required|string|unique:products,qr_code',
+            'min_quantity_available' => 'required|integer',
             'actual_price' => 'required|numeric',
             'final_price' => 'required|numeric',
             'description' => 'nullable|string',

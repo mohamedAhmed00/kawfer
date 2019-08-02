@@ -35,7 +35,7 @@ class BaseServiceClass implements BaseServiceInterface
      */
     public function storeWithOutImage($data)
     {
-        $this->store($data);
+        return $this->store($data);
     }
 
     /**

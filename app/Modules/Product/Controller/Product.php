@@ -6,6 +6,7 @@ use App\Generic\Controller\Controller;
 use App\Modules\Category\Service\Interfaces\CategoryServiceInterface;
 use App\Modules\Product\Request\ProductRequest;
 use App\Modules\Product\Service\Interfaces\ProductServiceInterface;
+use Illuminate\Http\Request;
 
 class Product extends Controller
 {
@@ -36,7 +37,7 @@ class Product extends Controller
      */
     public function index()
     {
-        $products = $this->service->getAll();
+        $products = $this->service->getAllWithExpireField();
         return view('product.index',compact('products'));
     }
 
@@ -58,7 +59,7 @@ class Product extends Controller
     public function store(ProductRequest $request)
     {
         $request->has('image')? $this->service->storeWithImage($request->all(),'product') : $this->service->storeWithOutImage($request->all());
-        \request()->session()->put('successful','Product was Saved Successfully');
+        \request()->session()->put('successful','تم اضافة المنتج بنجاح');
         return redirect()->route('auth.product.index');
     }
 
@@ -83,7 +84,7 @@ class Product extends Controller
     public function update(ProductRequest $request , int $id)
     {
         $request->has('image')? $this->service->updateWithImage($id,$request->all(),'product') : $this->service->updateWithoutImage($id,$request->all());
-        \request()->session()->put('successful','Product was Updated Successfully');
+        \request()->session()->put('successful','تم تعديل المنتج بنجاح');
         return redirect()->route('auth.product.index');
     }
 
@@ -98,13 +99,24 @@ class Product extends Controller
         if($result)
         {
             $this->service->delete($id);
-            \request()->session()->put('successful','Product was deleted Successfully');
+            \request()->session()->put('successful','تم حذف المنتج بنجاح');
             return redirect()->route('auth.product.index');
         }
         else
         {
-            \request()->session()->put('successful','This Product related with some product . please , delete this products before');
+            \request()->session()->put('successful','هذا المنتج مرتبط مع نتائج و طلبات . قم بحذفهم قبل حذف هذا المنتج');
             return redirect()->route('auth.product.index');
         }
+    }
+
+    /**
+     * @param Request $request
+     * @author Nader Ahmed
+     * @return View|Mixed
+     */
+    public function getProductByQrcode(Request $request)
+    {
+        $products = $this->service->getWhere(['qr_code' => $request->get('qr_code')]);
+        return response()->json(['products'=> $products],200 ,[]);
     }
 }

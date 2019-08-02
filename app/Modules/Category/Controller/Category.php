@@ -49,7 +49,7 @@ class Category extends Controller
     public function store(CategoryRequest $request)
     {
         $request->has('image')? $this->service->storeWithImage($request->all(),'category') : $this->service->storeWithOutImage($request->all());
-        \request()->session()->put('successful','Category was Saved Successfully');
+        \request()->session()->put('successful','تم اضافة القسم بنجاح');
         return redirect()->route('auth.category.index');
     }
 
@@ -73,7 +73,7 @@ class Category extends Controller
     public function update(CategoryRequest $request , int $id)
     {
         $request->has('image')? $this->service->updateWithImage($id,$request->all(),'category') : $this->service->updateWithoutImage($id,$request->all());
-        \request()->session()->put('successful','Category was Updated Successfully');
+        \request()->session()->put('successful','تم تعديل القسم بنجاح ');
         return redirect()->route('auth.category.index');
     }
 
@@ -87,12 +87,12 @@ class Category extends Controller
         $result = $this->service->canDelete($id);
         if($result)
         {
-            \request()->session()->put('successful','This Category related with some product . please , delete this products before');
+            \request()->session()->put('successful','هذا القسم مرتبط مع منتجات . احذف المنتجات اولا ثم احذف القسم');
         }
         else
         {
             $this->service->delete($id);
-            \request()->session()->put('successful','Category was deleted Successfully');
+            \request()->session()->put('successful','تم حذف القسم بنجاح');
         }
         return redirect()->route('auth.category.index');
     }

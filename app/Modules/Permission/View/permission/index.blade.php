@@ -6,11 +6,11 @@
     <div class="row">
         <div class="col-md-12">
             <!-- DATA TABLE -->
-            <h3 class="title-5 m-b-35">All Permissions</h3>
+            <h3 class="title-5 m-b-35">كل الصلاحيات</h3>
             <div class="table-data__tool float-lg-right">
                 <div class="table-data__tool-right">
                     <a href="{{ route('auth.permission.create') }}" class="au-btn au-btn-icon au-btn--green au-btn--small">
-                        <i class="zmdi zmdi-plus"></i>add item
+                        <i class="zmdi zmdi-plus"></i>اضافة صلاحية
                     </a>
                 </div>
             </div>
@@ -19,11 +19,11 @@
                 <table class="table table-data2">
                     <thead>
                     <tr class="text-center">
-                        <th># Permission</th>
-                        <th>name</th>
-                        <th>slug</th>
-                        <th>Created At</th>
-                        <th class="text-right pr-5">Actions</th>
+                        <th># الصلاحية</th>
+                        <th>الاسم</th>
+                        <th>الاختصار</th>
+                        <th>تاريخ الانشاء</th>
+                        <th class="text-right pr-5">الاحداث</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -35,10 +35,10 @@
                             <td><span class="status--process">{{ $permission->created_at->diffForHumans() }}</span></td>
                             <td>
                                 <div class="table-data-feature text-center">
-                                    <a href="{{ route('auth.permission.edit',$permission->id) }}" class="item" data-toggle="tooltip" data-placement="top" title="Edit">
+                                    <a href="{{ route('auth.permission.edit',$permission->id) }}" class="item" data-toggle="tooltip" data-placement="top" title="تعديل">
                                         <i class="zmdi zmdi-edit"></i>
                                     </a>
-                                    <a href="{{ route('auth.permission.delete',$permission->id) }}" class="item delete" data-toggle="tooltip" data-placement="top" title="Delete">
+                                    <a href="{{ route('auth.permission.delete',$permission->id) }}" class="item delete" data-toggle="tooltip" data-placement="top" title="حذف">
                                         <i class="zmdi zmdi-delete"></i>
                                     </a>
                                 </div>
@@ -58,7 +58,7 @@
 @section('delete-script')
     <script>
         $(".delete").on("click", function(){
-            return confirm("Do you want to delete this item?");
+            return confirm("هل تريد حقا حذف هذا العنصر ؟");
         });
     </script>
 @endsection

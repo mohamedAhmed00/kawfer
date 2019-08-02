@@ -50,7 +50,7 @@ class Permission extends Controller
     public function store(PermissionRequest $request)
     {
         $request->has('image')? $this->service->storeWithImage($request->all(),'permission') : $this->service->storeWithOutImage($request->all());
-        \request()->session()->put('successful','Permission was Saved Successfully');
+        \request()->session()->put('successful','تم اضافة الصلاحية بنجاح');
         return redirect()->route('auth.permission.index');
     }
 
@@ -74,7 +74,7 @@ class Permission extends Controller
     public function update(PermissionRequest $request , int $id)
     {
         $request->has('image')? $this->service->updateWithImage($id,$request->all(),'permission') : $this->service->updateWithoutImage($id,$request->all());
-        \request()->session()->put('successful','Permission was Updated Successfully');
+        \request()->session()->put('successful','تم تعديل الصلاحية بنجاح');
         return redirect()->route('auth.permission.index');
     }
 
@@ -89,12 +89,12 @@ class Permission extends Controller
         if($result)
         {
             $this->service->delete($id);
-            \request()->session()->put('successful','Permission was deleted Successfully');
+            \request()->session()->put('successful','تم حذف الصلاحية بنجاح');
             return redirect()->route('auth.permission.index');
         }
         else
         {
-            \request()->session()->put('successful','This Permission related with some permission . please , delete this permissions before');
+            \request()->session()->put('successful','هذه الصلاحية مرتبطه بمجموعات و مستخدمين . احذف المجموعات و المستخدمين ثم احذف الصلاحية ');
             return redirect()->route('auth.permission.index');
         }
     }

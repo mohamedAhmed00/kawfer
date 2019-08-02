@@ -50,7 +50,7 @@ class Role extends Controller
     public function store(RoleRequest $request)
     {
         $request->has('image')? $this->service->storeWithImage($request->all(),'role') : $this->service->storeWithOutImage($request->all());
-        \request()->session()->put('successful','Role was Saved Successfully');
+        \request()->session()->put('successful','تم انشاء المجموعة بنجاح');
         return redirect()->route('auth.role.index');
     }
 
@@ -74,7 +74,7 @@ class Role extends Controller
     public function update(RoleRequest $request , int $id)
     {
         $request->has('image')? $this->service->updateWithImage($id,$request->all(),'role') : $this->service->updateWithoutImage($id,$request->all());
-        \request()->session()->put('successful','Role was Updated Successfully');
+        \request()->session()->put('successful','تم تعديل المجموعة بنجاح');
         return redirect()->route('auth.role.index');
     }
 
@@ -89,12 +89,12 @@ class Role extends Controller
         if($result)
         {
             $this->service->delete($id);
-            \request()->session()->put('successful','Role was deleted Successfully');
+            \request()->session()->put('successful','تم حذف المجموعة بنجاح');
             return redirect()->route('auth.role.index');
         }
         else
         {
-            \request()->session()->put('successful','This Role related with some role . please , delete this roles before');
+            \request()->session()->put('successful','هذه المجموعة مرتبطه مع مستخدمين لابد من حذف المستخدمين ثم نحذف المجموعة');
             return redirect()->route('auth.role.index');
         }
     }

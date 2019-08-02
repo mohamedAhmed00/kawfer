@@ -1,21 +1,24 @@
+@php
+    $settings = get_settings();
+@endphp
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="au theme template">
-    <meta name="author" content="Hau Nguyen">
-    <meta name="keywords" content="au theme template">
-    <title>Login To Continue</title>
+    <meta name="description" content="{{ !empty($settings['desc'])?$settings['desc']->value : '' }}">
+    <meta name="author" content="{{ !empty($settings['auther'])?$settings['auther']->value : '' }}">
+    <meta name="keywords" content="{{ !empty($settings['key-workds'])?$settings['key-workds']->value : '' }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <link rel="icon" type="image/png"  href="{{ !empty($settings['favicon'])?$settings['favicon']->value : '' }}" />
+    <title>{{ !empty($settings['title'])?$settings['title']->value : '' }}</title>
     <link href="{{ asset('admin/css/font-face.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/font-awesome-4.7/css/font-awesome.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/font-awesome-5/css/fontawesome-all.min.css') }}" rel="stylesheet" media="all">
-    <link href="{{ asset('admin/vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet"
-          media="all">
+    <link href="{{ asset('admin/vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/bootstrap-4.1/bootstrap.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/animsition/animsition.min.css') }}" rel="stylesheet" media="all">
-    <link href="{{ asset('admin/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet"
-          media="all">
+    <link href="{{ asset('admin/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/wow/animate.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/css-hamburgers/hamburgers.min.css') }}" rel="stylesheet" media="all">
     <link href="{{ asset('admin/vendor/slick/slick.css') }}" rel="stylesheet" media="all">
@@ -31,20 +34,20 @@
             <div class="login-wrap" style="max-width: 800px">
                 <div class="login-content">
                     <div class="login-logo">
-                        <a href="#">
-                            <img src="{{ asset('admin/images/icon/logo.png')}}" alt="CoolAdmin">
+                        <a href="{{ url('/login') }}">
+                            <img src=" {{ !empty($settings['logo'])? asset($settings['logo']->value ) : '' }}" alt="{{ !empty($settings['title'])?$settings['title']->value : '' }}"/>
                         </a>
                     </div>
                     <div class="login-form">
                         @if(session()->has('un_auth'))
                             <div class="card">
                                 <div class="card-header">
-                                    <strong class="card-title">Errors</strong>
+                                    <strong class="card-title">خطأ</strong>
                                 </div>
                                 <div class="card-body">
                                     <div
                                         class="sufee-alert alert with-close alert-danger alert-dismissible fade show">
-                                        <span class="badge badge-pill badge-danger">Errors</span>
+                                        <span class="badge badge-pill badge-danger">خطأ . العملية لم تكتمل </span>
                                         {{ session()->get('un_auth') }}
                                         <button type="button" class="close" data-dismiss="alert"
                                                 aria-label="Close">
@@ -58,11 +61,11 @@
                         @if ($errors->any())
                             <div class="card">
                                 <div class="card-header">
-                                    <strong class="card-title">Result</strong>
+                                    <strong class="card-title">حطأ</strong>
                                 </div>
                                 <div class="card-body">
                                     <div class="sufee-alert alert with-close alert-danger alert-dismissible fade show">
-                                        <span class="badge badge-pill badge-danger">Errors</span>
+                                        <span class="badge badge-pill badge-danger">خطأ . العملية لم تكتمل </span>
                                         @foreach ($errors->all() as $error)
 
                                             {{ $error }}
@@ -79,28 +82,25 @@
                         <form action="{{ route('auth.login') }}" class="login-form" method="post">
                             @csrf
                             <div class="form-group">
-                                <label>Email Address</label>
-                                <input
-                                    class="au-input au-input--full {{ session()->has('un_auth') ?  "border-danger" : ''   }}"
-                                    type="email" name="email" value="{{ old('email') }}" placeholder="Email">
+                                <label>البريد الالكتروني</label>
+                                <input class="au-input au-input--full {{ session()->has('un_auth') ?  "border-danger" : ''   }}"
+                                    type="email" name="email" value="{{ session()->has('email')? session()->get('email') : '' }}" placeholder="البريد الالكتروني">
                             </div>
                             <div class="form-group">
-                                <label>Password</label>
-                                <input
-                                    class="au-input au-input--full {{ session()->has('un_auth') ?  "border-danger" : ''   }}"
-                                    type="password" name="password" placeholder="Password">
+                                <label>الرقم السري</label>
+                                <input class="au-input au-input--full {{ session()->has('un_auth') ?  "border-danger" : ''   }}"
+                                       type="password" name="password" placeholder="الرقم السري">
                             </div>
                             <div class="login-checkbox">
                                 <label>
-                                    <input type="checkbox" name="remember">Remember Me
+                                    <input type="checkbox" name="remember">تذكرني لاحقا
                                 </label>
-                                <label>
-                                    <a href="#">Forgotten Password?</a>
-                                </label>
+{{--                                <label>--}}
+{{--                                    <a href="#">استعادة رقم المرور</a>--}}
+{{--                                </label>--}}
                             </div>
-                            <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">sign in</button>
+                            <button class="au-btn au-btn--block au-btn--green m-b-20" type="submit">تسجيل الدخول</button>
                         </form>
-
                     </div>
                 </div>
             </div>
@@ -108,6 +108,9 @@
     </div>
 
 </div>
+@php
+    \request()->session()->forget('email');
+@endphp
 
 <script src="{{ asset('admin/vendor/jquery-3.2.1.min.js') }}"></script>
 <script src="{{ asset('admin/vendor/bootstrap-4.1/popper.min.js') }}"></script>

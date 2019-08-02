@@ -26,6 +26,8 @@ class CredentialServiceProvider extends ServiceProvider
 
         $this->app->singleton(CredentialServiceInterface::class,CredentialServiceClass::class);
 
+        require_once app_path('Modules/Credential/Helper/Helper.php') ;
+
     }
 
     /**

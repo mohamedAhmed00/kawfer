@@ -50,7 +50,7 @@ class Operation extends Controller
     public function store(OperationRequest $request)
     {
         $request->has('image')? $this->service->storeWithImage($request->all(),'operation') : $this->service->storeWithOutImage($request->all());
-        \request()->session()->put('successful','Operation was Saved Successfully');
+        \request()->session()->put('successful','تم انشاء العملية بنجاح');
         return redirect()->route('auth.operation.index');
     }
 
@@ -74,7 +74,7 @@ class Operation extends Controller
     public function update(OperationRequest $request , int $id)
     {
         $request->has('image')? $this->service->updateWithImage($id,$request->all(),'operation') : $this->service->updateWithoutImage($id,$request->all());
-        \request()->session()->put('successful','Operation was Updated Successfully');
+        \request()->session()->put('successful','تم تعديل العملية بنجاح');
         return redirect()->route('auth.operation.index');
     }
 
@@ -89,12 +89,12 @@ class Operation extends Controller
         if($result)
         {
             $this->service->delete($id);
-            \request()->session()->put('successful','Operation was deleted Successfully');
+            \request()->session()->put('successful','تم حذف العملية بنجاح ');
             return redirect()->route('auth.operation.index');
         }
         else
         {
-            \request()->session()->put('successful','This Operation related with some operation . please , delete this operations before');
+            \request()->session()->put('successful','هذه العملية مرتبطه مع نتائج و عملاء لابد من حذقهم قبل حذف  العملية ');
             return redirect()->route('auth.operation.index');
         }
     }

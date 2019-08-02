@@ -8,6 +8,13 @@ interface UserServiceInterface extends BaseServiceInterface
 {
 
     /**
+     * @param int $roleId
+     * @author Nader Ahmed
+     * @return mixed
+     */
+    public function specificUser($roleId);
+
+    /**
      * @param int $id
      * @author Nader Ahmed
      * @return boolean

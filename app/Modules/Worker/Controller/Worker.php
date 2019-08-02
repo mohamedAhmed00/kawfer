@@ -3,6 +3,7 @@
 namespace App\Modules\Worker\Controller;
 
 use App\Generic\Controller\Controller;
+use App\Modules\Worker\Request\UpdateWorkerRequest;
 use App\Modules\Worker\Request\WorkerRequest;
 use App\Modules\Worker\Service\Interfaces\WorkerServiceInterface;
 
@@ -29,7 +30,7 @@ class Worker extends Controller
      */
     public function index()
     {
-        $workers = $this->service->getAll();
+        $workers = $this->service->getAllWithExpireField();
         return view('worker.index',compact('workers'));
     }
 
@@ -49,8 +50,8 @@ class Worker extends Controller
      */
     public function store(WorkerRequest $request)
     {
-        $request->has('image')? $this->service->storeWithImage($request->all(),'worker') : $this->service->storeWithOutImage($request->all());
-        \request()->session()->put('successful','Worker was Saved Successfully');
+        $this->service->storeImages($request->all(),'worker');
+        \request()->session()->put('successful','تم اضافة العامل بنجاح');
         return redirect()->route('auth.worker.index');
     }
 
@@ -67,14 +68,14 @@ class Worker extends Controller
 
     /**
      * @param int $id
-     * @param WorkerRequest $request
+     * @param UpdateWorkerRequest $request
      * @author Nader Ahmed
      * @return View|Mixed
      */
-    public function update(WorkerRequest $request , int $id)
+    public function update(UpdateWorkerRequest $request , int $id)
     {
-        $request->has('image')? $this->service->updateWithImage($id,$request->all(),'worker') : $this->service->updateWithoutImage($id,$request->all());
-        \request()->session()->put('successful','Worker was Updated Successfully');
+        $this->service->updateImages($id,$request->all(),'worker');
+        \request()->session()->put('successful','تم تعديل العامل بنجاح');
         return redirect()->route('auth.worker.index');
     }
 
@@ -89,12 +90,12 @@ class Worker extends Controller
         if($result)
         {
             $this->service->delete($id);
-            \request()->session()->put('successful','Worker was deleted Successfully');
+            \request()->session()->put('successful','تم حذف العامل بنجاح');
             return redirect()->route('auth.worker.index');
         }
         else
         {
-            \request()->session()->put('successful','This Worker related with some worker . please , delete this workers before');
+            \request()->session()->put('successful','هذا العامل مرتبط بنتائج و عمليات و عملاء . احذفهم قبل حذف هذا العامل');
             return redirect()->route('auth.worker.index');
         }
     }

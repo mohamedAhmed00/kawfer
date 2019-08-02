@@ -31,6 +31,7 @@ class UpdateUserRequest extends FormRequest
             'phone_number' => 'required|numeric|unique:users,phone_number,' . $this->id,
             'age' => 'required|integer',
             'password' => 'nullable|confirmed',
+            'role_id' => 'required|integer',
         ];
     }
 }

@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Darryldecode\Cart\CartServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -183,6 +184,14 @@ return [
         \App\Modules\Setting\Provider\SettingServiceProvider::class,
         \App\Modules\Role\Provider\RoleServiceProvider::class,
         \App\Modules\Permission\Provider\PermissionServiceProvider::class,
+        \App\Modules\RolePermission\Provider\RolePermissionServiceProvider::class,
+        \App\Modules\Client\Provider\ClientServiceProvider::class,
+        \App\Modules\Order\Provider\OrderServiceProvider::class,
+        \App\Modules\Discount\Provider\DiscountServiceProvider::class,
+        \App\Modules\Operation\Provider\OperationTypeServiceProvider::class,
+        \App\Modules\Operation\Provider\OperationMeasureServiceProvider::class,
+        \App\Modules\Schedule\Provider\ScheduleServiceProvider::class,
+        \App\Modules\Invoice\Provider\InvoiceServiceProvider::class
     ],
 
     /*
@@ -233,7 +242,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        'Cart' => Darryldecode\Cart\Facades\CartFacade::class,
     ],
 
 ];

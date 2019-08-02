@@ -13,5 +13,10 @@ class Operation extends Model
      */
     protected $fillable = ['name','price'];
 
-
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function types(){
+        return $this->hasMany(OperationType::class,'operation_id','id')->with('measures');
+    }
 }

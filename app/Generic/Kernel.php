@@ -2,6 +2,7 @@
 
 namespace App\Generic;
 
+use App\Modules\Credential\Middleware\DashboardCheck;
 use App\Modules\Credential\Middleware\RedirectIfAuth;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -20,7 +21,6 @@ class Kernel extends HttpKernel
         \App\Generic\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \App\Generic\Middleware\TrustProxies::class,
-       RedirectIfAuth::class,
     ];
 
     /**
@@ -63,6 +63,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'RedirectIfAuth' => RedirectIfAuth::class,
+        'DashboardCheck' => DashboardCheck::class,
     ];
 
     /**

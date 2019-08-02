@@ -31,6 +31,7 @@ class UserRequest extends FormRequest
             'phone_number' => 'required|numeric|unique:users,phone_number',
             'age' => 'required|integer',
             'password' => 'required|confirmed',
+            'role_id' => 'required|integer',
         ];
     }
 }
